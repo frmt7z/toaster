@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+
+object myToaster
+
+myToaster : slots = 2
+myToaster : toast_anzahl = 0
+myToaster : color = "rot"
+myToaster : toast_laenge = 0
+myToaster : toast_zustand = "nicht getoastet"
+
+
+@enduml
