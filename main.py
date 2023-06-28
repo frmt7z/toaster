@@ -27,6 +27,7 @@ class Toaster:
             toaster.toast_auswerfen()
 
 
+
     def toast_auswerfen(self):
         if toast_laenge >= 45:
             self.toast_zustand = "verbrannt"
