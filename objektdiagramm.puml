@@ -9,5 +9,11 @@ myToaster : color = "rot"
 myToaster : toast_laenge = 0
 myToaster : toast_zustand = "nicht getoastet"
 
+mySuperToaster : slots = 2
+mySuperToaster : toast_anzahl = 4
+mySuperToaster : color = "glossy_pink"
+mySuperToaster : temperature = 200
+
+myToaster --|> mySuperToaster
 
 @enduml
